@@ -1,0 +1,30 @@
+package day03;
+
+public class 문제 {
+
+	public static void main(String[] args) {
+//		int sum = 0;
+//		for(int i =1; i<=10; i++) {
+//			if(i%2==0) {
+//				sum++;
+//			}else {
+//				sum = sum + i;
+//			}
+//		
+//			
+//		} System.out.println(sum);
+//		
+		int num = 2;
+		int j = 3;
+		if(j%2==0) {
+			num++;
+		}else {
+			num = num + j;
+			
+		} System.out.println(num);
+
+	
+
+	}
+
+}
