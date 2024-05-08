@@ -7,7 +7,11 @@ public class Member {
 	private String email;
 
 	public Member(String insId, String insPw, String insName, String insEmail) {
-
+		super();
+		this.id = insId;
+		this.pw = insPw;
+		this.name = insName;
+		this.email = insEmail;
 	}
 
 	public String getId() {
