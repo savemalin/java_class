@@ -198,7 +198,7 @@ public class LibraryService {
 		}
 	}
 
-	public void returnBook() {
+	private void returnBook() {
 		Book[] RB = null;
 		// 1. 로그인 된 회원의 대여중인 도서 목록 출력
 
